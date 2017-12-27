@@ -10,7 +10,7 @@ gem 'foodcritic'
 gem 'rake'
 gem 'rubocop', '= 0.49.0'
 
-gem 'nokogiri', '= 1.6.8.1'
+gem 'nokogiri', '= 1.8.1'
 
 group :integration do
   gem 'guard', '~> 2.6'
@@ -26,7 +26,7 @@ group :test do
 end
 
 group :development do
-  gem 'chef',        '~> 12.21.1'
+  gem 'chef',        '= 12.21.31'
   gem 'knife-spec'
   gem 'knife-spork', '~> 1.0.17'
   gem 'stove'
